@@ -1857,12 +1857,11 @@ section {
     padding: 1rem;
   }
 }
-
-.img-hidden-sm{
-        display:block !important;
+.about .img-hidden-sm{
+        display:none !important;
     }
 @media screen and (max-width: 992px){
-    .img-hidden-sm{
+    .about .img-hidden-sm{
         display:none !important;
     }
 }
