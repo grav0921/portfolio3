@@ -722,6 +722,12 @@ h1, h2, h3, h4, h5, h6 {
   background: #019cbe;
 }
 
+@media screen and (max-width: 992px){
+    .about .img-hidden-sm{
+        display:none !important;
+    }
+}
+
 @media (max-width: 768px) {
   #hero {
     height: 90vh;
@@ -733,6 +739,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
   }
 }
+
 
 @media (min-width: 1024px) {
   #hero p {
@@ -1856,12 +1863,4 @@ section {
   .project .content-card{
     padding: 1rem;
   }
-}
-.about .img-hidden-sm{
-        display:none !important;
-    }
-@media screen and (max-width: 992px){
-    .about .img-hidden-sm{
-        display:none !important;
-    }
 }
